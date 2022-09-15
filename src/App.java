@@ -17,20 +17,21 @@ public class App {
     String formação;
     Professor p1 =new Professor(nome, email, formação);
 
-    
+    System.out.println("quant alunos"+c)
 
     
     String nivel;
     int ch;
     Curso c1 = new Curso(nome, nivel, ch, p1 );
+    System.out.println("quant alunos: "+c1.getAlunosMatriculados());
 
-    c1.nome = "ADS";
-    c1.ch = 2000;
-    c1.professor=p1;
 
-    Certificado c2 = new Certificado(nome,curso);
-    c2.nomeAluno = "Daniel";
-    c2.nomeCurso = "ADS";
+    c1.realizarMatricula(a1);
+    c1.realizarMatricula(a2);
+    System.out.println("quant alunos: "+c1.getAlunosMatriculados());
+
+    System.out.println("quant alunos: "+c1.getAlunosMatriculados());
+
 
 
 

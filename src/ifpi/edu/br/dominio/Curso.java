@@ -23,7 +23,7 @@ public class Curso {
         this.alunos = new ArrayList<>();
 
     }
-    public int getAlunosMtriculados(){
+    public int getAlunosMatriculados(){
         return this.alunos.size();
 
     }
