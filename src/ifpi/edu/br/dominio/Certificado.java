@@ -1,20 +1,20 @@
 package ifpi.edu.br.dominio;
+import java.util.Date;
 
-import java.time.LocalDate;
 
 public class Certificado {
     public String nomeAluno;
     public String nomeCurso;
     public int ch;
     public String modalidade;
-    public LocalDate dataInicio;
-    public LocalDate dataFim;
+    public Date dataInicio;
+    public Date dataFim;
     public int nivel;
-    public LocalDate dataNasc;
+    public Date dataNasc;
     public Curso curso;
     public Aluno aluno;
 
-    public Certificado(String nomeAluno, String nomeCurso, int ch,String modalidade,LocalDate dataInicio, LocalDate dataFim, int nivel,LocalDate dataNasc){
+    public Certificado(String nomeAluno, String nomeCurso, int ch,String modalidade,Date dataInicio, Date dataFim, int nivel,Date dataNasc){
         this.nomeAluno = nomeAluno;
         this.nomeCurso = nomeCurso;
         this.ch = ch;
