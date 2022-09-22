@@ -1,14 +1,14 @@
 package ifpi.edu.br.dominio;
-import java.time.LocalDate;
+
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.Date;
 public class Curso {
     private String nome;
     private int ch;
     private String modalidade;
-    private LocalDate dataInicio;
-    private LocalDate dataFim;
+    private Date dataInicio;
+    private Date dataFim;
     private String nivel;
     private Professor professor;
     private Curso curso;
@@ -48,11 +48,11 @@ public class Curso {
         return alunos;
     }
 
-    public LocalDate getDataInicio() {
+    public Date getDataInicio() {
         return dataInicio;
     }
 
-    public LocalDate getDataFim() {
+    public Date getDataFim() {
         return dataFim;
     }
 
