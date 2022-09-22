@@ -1,14 +1,14 @@
 package ifpi.edu.br.dominio;
-import java.time.LocalDate;
+import java.util.Date;
 
 public class Aluno {
     private String nome;
     private String email;
-    private LocalDate dataNasc;
+    private Date dataNasc;
     private Certificado certificado;
     private Curso curso;
     
-    public Aluno(String nome,LocalDate dataNasc,String email){
+    public Aluno(String nome,Date dataNasc,String email){
         this.nome = nome;
         this.email=email;
         this.dataNasc = dataNasc;
@@ -23,7 +23,7 @@ public class Aluno {
     public String getEmail() {
         return email;
     }
-    public LocalDate getDataNasc() {
+    public Date getDataNasc() {
         return dataNasc;
     }
     public Certificado getCertificado() {
